@@ -8,24 +8,8 @@ body {
   margin: 60px auto;
   max-width: 800px;
 }
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-  }
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  .App-link {
-    margin: 0 20px;
-    display: block;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.5;
-  }
+h1 {
+  font-size: 96px;
 }
 
 h1,
@@ -33,10 +17,6 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
-}
-
-h1 {
-  font-size: 96px;
 }
 
 h2 {
@@ -112,3 +92,21 @@ p {
   color: white;
   border-radius: 5px;
 }
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  .App-link {
+    margin: 0 20px;
+    display: block;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  }
